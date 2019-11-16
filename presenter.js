@@ -3,6 +3,7 @@ export class Presenter {
     this.model = model;
     this.view = view;
     this.model.setObserver(this);
+    this.model.startTimer();
   }
 
   update() {

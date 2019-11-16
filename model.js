@@ -8,8 +8,8 @@ export class Model {
   }
 
   startTimer() {
-    setTimeout(function() {
-      this.notifyObserver();
+    setInterval(function() {
+      console.log('TIMEOUT');
     }, 1000);
   }
 
