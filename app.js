@@ -1,1 +1,4 @@
-console.log('Test');
+import { View } from './view.js';
+
+const view = new View();
+view.displayString('Test');
